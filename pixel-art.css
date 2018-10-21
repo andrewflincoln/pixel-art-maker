@@ -1,0 +1,131 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    margin: 0 auto 10px auto;
+    border: 1px solid black;
+}
+.palette {
+    display: grid;
+    grid-template-columns: 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+    grid-template rows: 30px 30px 30px 30px;
+    margin: none;
+    border: none;
+}
+
+.pixel, .select {
+    border: 1px solid black;
+    display: inline-grid; 
+}
+
+#field {
+    display: grid;
+    align-content: center; 
+}
+
+#currentPaletteInd {
+    grid-column-start: 1;
+    grid-column-end: 15;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid white;
+}
+.white-text {
+    color: white;
+}
+
+h1, h3 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+/*Color classes*/
+.grey
+{ background-color: grey; }
+.darkblue
+{ background-color: darkblue; }
+.midnightblue
+{ background-color: midnightblue; }
+.darkslateblue
+{ background-color: darkslateblue; }
+.purple
+{ background-color: purple; }
+.darkred
+{ background-color: darkred; }
+.maroon
+{ background-color: maroon; }
+.saddlebrown
+{ background-color: saddlebrown; }
+.darkolivegreen
+{ background-color: darkolivegreen; }
+.darkgreen
+{ background-color: darkgreen; }
+.forestgreen
+{ background-color: forestgreen; }
+.darkslategrey
+{ background-color: darkslategrey; }
+.royalblue
+{ background-color: royalblue; }
+.black
+{ background-color: black; }
+.lightgrey
+{ background-color: lightgrey; }
+.blue
+{ background-color: blue; }
+.slateblue {
+    background-color: slateblue;
+}
+.mediumslateblue
+{ background-color: mediumslateblue; }
+.darkmagenta
+{ background-color: darkmagenta; }
+.deeppink
+{ background-color: deeppink; }
+.tomato
+{ background-color: tomato; }
+.peru
+{ background-color: peru; }
+.green
+{ background-color: green; }
+.olive 
+{ background-color: olive; }
+.lime
+{ background-color: lime; }
+.seagreen
+{ background-color: seagreen; }
+.steelblue
+{ background-color: steelblue; }
+.dimgrey
+{ background-color: dimgrey; }
+.white
+{ background-color: white; }
+.cornflowerblue
+{ background-color: cornflowerblue; }
+.plum
+{ background-color: plum; }
+.blueviolet 
+{background-color: blueviolet}
+.hotpink
+{ background-color: hotpink; }
+.mediumvioletred
+{ background-color: mediumvioletred; }
+.darksalmon
+{ background-color: darksalmon; }
+
+.orange
+{ background-color: orange; }
+.yellow
+{ background-color: yellow; }
+.greenyellow
+{ background-color: greenyellow; }
+.lawngreen
+{ background-color: lawngreen; }
+.aqua
+{ background-color: aqua; }
+.deepskyblue
+{ background-color: deepskyblue; }
+.darkgrey
+{ background-color: darkgrey; }
+
